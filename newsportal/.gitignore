@@ -1,0 +1,116 @@
+# =========================
+# 🔐 ENV FILES (CRITICAL)
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# 📦 DEPENDENCIES
+# =========================
+node_modules/
+**/node_modules/
+
+# =========================
+# 🧪 LOGS
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# 🗂 BUILD FILES
+# =========================
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+
+# =========================
+# ⚛️ FRONTEND (VITE/REACT)
+# =========================
+frontend/dist/
+frontend/.vite/
+frontend/node_modules/
+
+# =========================
+# 🖥 BACKEND
+# =========================
+backend/node_modules/
+backend/uploads/
+backend/public/uploads/
+backend/tmp/
+backend/logs/
+
+# =========================
+# ☁️ FILE UPLOADS / MEDIA
+# =========================
+uploads/
+public/uploads/
+*.tmp
+*.temp
+*.cache
+
+# =========================
+# 🧠 DATABASE FILES (LOCAL)
+# =========================
+*.sqlite
+*.db
+*.db-journal
+
+# =========================
+# 🧪 TEST / COVERAGE
+# =========================
+coverage/
+.nyc_output/
+
+# =========================
+# 🧰 EDITOR / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# =========================
+# 🧠 OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# 🔑 KEYS / CERTS / SECRETS
+# =========================
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+
+# =========================
+# 🐳 DOCKER (optional)
+# =========================
+.dockerignore
+docker-compose.override.yml
+
+# =========================
+# 🔥 CACHE / TEMP
+# =========================
+*.cache
+.cache-loader/
+.tmp/
+temp/
+
+# =========================
+# 📦 ARCHIVES
+# =========================
+*.zip
+*.tar
+*.gz
+*.rar
