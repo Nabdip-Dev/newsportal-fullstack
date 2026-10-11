@@ -124,7 +124,7 @@ export default function HomePage() {
             )}
           </section>
 
-          {/* LATEST NEWS */}
+          {/* LATEST NEW */}
           <section>
             <SectionTitle icon="🕐" title="Latest News" link="/search" />
             {loading ? (
